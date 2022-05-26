@@ -1,4 +1,4 @@
-# Power-Azure-VM-From-Excel
+# power-azure-vm-from-excel
 
 This PowerShell script starts, restarts, or stops Azure VMs listed in an Excel spreadsheet. 
 <br />
@@ -15,7 +15,7 @@ To install the required modules to run this script, follow the instructions belo
     Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
     ```
     
-3. Run the command to install the [ImportExcel](https://github.com/dfinke/ImportExcel) module- 
+3. Run the command to install the [ImportExcel](https://github.com/dfinke/ImportExcel) module - 
     ```powershell
     Install-Module -Name ImportExcel -Scope CurrentUser
     ```
